@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+"final_doan2\startup_stm32f103xb.o"
+"final_doan2\main.o"
+"final_doan2\stm32f1xx_it.o"
+"final_doan2\stm32f1xx_hal_msp.o"
+"final_doan2\stm32f1xx_hal_gpio_ex.o"
+"final_doan2\stm32f1xx_hal_i2c.o"
+"final_doan2\stm32f1xx_hal.o"
+"final_doan2\stm32f1xx_hal_rcc.o"
+"final_doan2\stm32f1xx_hal_rcc_ex.o"
+"final_doan2\stm32f1xx_hal_gpio.o"
+"final_doan2\stm32f1xx_hal_dma.o"
+"final_doan2\stm32f1xx_hal_cortex.o"
+"final_doan2\stm32f1xx_hal_pwr.o"
+"final_doan2\stm32f1xx_hal_flash.o"
+"final_doan2\stm32f1xx_hal_flash_ex.o"
+"final_doan2\stm32f1xx_hal_exti.o"
+"final_doan2\stm32f1xx_hal_tim.o"
+"final_doan2\stm32f1xx_hal_tim_ex.o"
+"final_doan2\system_stm32f1xx.o"
+"final_doan2\clcd_i2c.o"
+"final_doan2\doan2.o"
+"final_doan2\ds3231.o"
+"final_doan2\sieuam.o"
+--strict --scatter "FINAL_DOAN2\FINAL_DOAN2.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "FINAL_DOAN2.map" -o FINAL_DOAN2\FINAL_DOAN2.axf
